@@ -1,6 +1,12 @@
-#define the solution in which range its going to play
+#define the solution for initialising the variable
 def final_balance(A, D):
-    return ('range(-1,000..1,000)')
+    balance = 0
+    card_payments = [0] * 12
+   if i in range (len(A)):
+       Amount = A[i]
+
+
+
 
 #wriet a fomular for computing account balance
 account_balance =('available_balance - transaction_amount')
